@@ -1,0 +1,37 @@
+.office-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.office-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.office-card img {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+}
+
+.office-info {
+    padding: 1.5rem;
+}
+
+.office-info h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.office-info p {
+    margin: 0.5rem 0;
+    color: #555;
+}

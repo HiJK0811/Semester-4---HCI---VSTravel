@@ -1,0 +1,52 @@
+.section {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.section img {
+    max-width: 256px;
+    height: auto;
+}
+
+.history img{
+    height: 192px;
+}
+
+#history-header {
+    text-align: right;
+}
+
+.section .text {
+    flex: 1;
+}
+
+.section h2{
+    font-weight: normal;
+}
+
+.history h2{
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #history-header {
+    text-align: center;
+  }
+
+  .history h2 {
+    text-align: center;
+  }
+}
